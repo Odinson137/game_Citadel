@@ -1,22 +1,11 @@
 import psycopg2
 from random import choice
 
-# import config
-# import logging
-
-# from aiogram import Bot, Dispatcher, executor, types
-
-# logging.basicConfig(level=logging.INFO)
-
-# bot = Bot(token=config.TOKEN)
-# dp = Dispatcher(bot)
-
 
 conn = psycopg2.connect("dbname=ddqjssbfv2l586 user=esglikdemrphdb host=ec2-44-196-250-191.compute-1.amazonaws.com password=2f1d952066d22ec58acd197f13a434b1f948e45dbd3344e2fbff7f243a81d089 port=5432")
 cur = conn.cursor()
 
-names = ['yura', 'stas']
-# , 'olia', 'vika', 'oleg'
+names = ['Maz', 'Jeck']
 
 num = 0
 
@@ -25,11 +14,7 @@ ready_spisok = []
 killed = ''
 
 get_card=[]
-# new_round_players = []
 
-# def fors(item):
-#     for i in item:
-#         return
 
 def biildings():
     buildings = []
