@@ -4,7 +4,7 @@ from random import choice
 
 from settings import *
 
-conn = psycopg2.connect("dbname=ddqjssbfv2l586 user=esglikdemrphdb host=ec2-44-196-250-191.compute-1.amazonaws.com password=2f1d952066d22ec58acd197f13a434b1f948e45dbd3344e2fbff7f243a81d089 port=5432")
+conn = psycopg2.connect("BAZA port=5432")
 cur = conn.cursor()
 
 
@@ -321,9 +321,3 @@ class Perks:
         cur.execute(minus, value)
         print('Удалён')
 
-
-# perk = Perks('olia', 10)
-# perk.perks_of_players()
-# conn.commit()
-# cur.close()
-# conn.close()
