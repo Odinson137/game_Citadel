@@ -146,9 +146,5 @@ class King:
 # conn.commit()
 
 # king = King()
-# king.update_kinger('yura')
-# conn.commit()
-
-# king = King()
 # king.search_kinger()
 # conn.commit()
