@@ -250,10 +250,6 @@ class cycle_game():
         else:
             pass
 
-    # ostatok_card()
-    # ifers(2, 'stas')
-    # conn.commit()
-
     def len_builded(self, number=7):
         lens = len(names)
         print(lens)
@@ -286,8 +282,6 @@ def delete():
     cur.execute(delete)
     delete_builded = " DELETE FROM builded "
     cur.execute(delete_builded)
-    # dels = " DELETE FROM card_in_inventar "
-    # cur.execute(dels)
 
 def starts():
     delete() # очищения базы от всей лишней фигни от прошой игры
